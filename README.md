@@ -180,14 +180,32 @@ commit 상세 내용작성
     git add .
     git commit -m "[docs] : 브렌치 실습 test 생성하기"
     git branch test
+
 ```
 
+#### 4.7.2. branch 목록보기
 
+```bash
+    git branch - v
+```
 
-#### 4.7.2. branch 이동하기
+#### 4.7.3. branch 이동하기
 
-#### 4.7.3. branch 삭제하기
+```bash
+    git switch test
+```
+#### 4.7.4. branch 삭제하기
 
-#### 4.7.4. branch 합치기 
+```bash
+    git branch -D test
+```
+
+#### 4.7.5. branch 합치기 
+
+ - 브렌치를 하나로 합치기
+ - 주의 사항 : `main 브랜치에서 test branch 합쳐(merge)줄 겁니다.`
+```bash
+    git merge 합쳐 주고자 하는 branch명
+```
 
 # GitHub
