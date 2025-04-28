@@ -211,7 +211,9 @@ commit 상세 내용작성
 ### 4.8 git branch  충돌 해결해 보기
 
  - git branch를 merge 하면 많이 발생합니다.
- 
+ - `login branch` 에서 나는 로그인 기능을 구현했다.
+
+
  ```bash
  ```
 
