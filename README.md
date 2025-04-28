@@ -212,6 +212,7 @@ commit 상세 내용작성
 
  - git branch를 merge 하면 많이 발생합니다.
  - 나는 main에서 계속 작업을 하고 있었습니다.
+ - `login branch` 에서 나는 로그인 기능을 구현했다.
 
 
  ```bash
