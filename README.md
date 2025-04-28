@@ -322,3 +322,10 @@ commit 상세 내용작성
 ```bash
     git remote rename 옛이름 새이름
 ```
+
+### 4.5. 추천 작업 순서 
+```bash
+git add .
+git commit -m "[docs] : git 학습"
+git push origin main
+```
