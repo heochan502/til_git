@@ -162,14 +162,32 @@ commit 상세 내용작성
     git show 커밋아이디
 ```
 
-
-
 ### 4.6.1. 각 항목 관련 사항 이해하기
  - commit : 고유한 commit 번호(아이디)
  - Author : 작성자
  - Date   : 날짜 
- - 메시지  : 상세 내요 
+ - 메시지  : 상세 내용
+
+### 4.7. branch 작업하기(실습)
+
+ - `나뭇가지` 라는 의미로 원 줄기로 부터 파생되는 것을 말함.
+ - 원 `소스`로 부터 파생한 새롭게 `분기한 소스` 관리를 말함.
+ - branch를 생성시에는 add와 commit이 완료되어야 함.
+
+#### 4.7.1. branch 생성하기
+
+```bash
+    git add .
+    git commit -m "[docs] : 브렌치 실습 test 생성하기"
+    git branch test
+```
 
 
+
+#### 4.7.2. branch 이동하기
+
+#### 4.7.3. branch 삭제하기
+
+#### 4.7.4. branch 합치기 
 
 # GitHub
