@@ -298,3 +298,27 @@ commit 상세 내용작성
 ```
 
 - `-u` 옵션을 붙이셨다면 이후로는 `git push`하면 됨.
+
+### 4.4. 원격 저장소 관리하기
+
+```bash
+    git remote -v
+```
+
+- 삭제하기
+
+```bash
+   git remote remove `원격이름`
+```
+
+- 추가하기
+
+```bash
+    git remote add `원격이름` `https주소`
+```
+
+- 이름 바꾸기
+
+```bash
+    git remote rename 옛이름 새이름
+```
