@@ -365,3 +365,13 @@ git push origin main
     git commit -m "작업내용"
     git push origin 브랜치명 
 ```
+
+내 로컬 브렌치 목록
+git branch -v
+
+내 github remote branch 목록 
+
+git branch -r
+
+로컬 및 github 모든 branch 목록
+git branch -a
