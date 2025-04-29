@@ -358,19 +358,6 @@ git push origin main
 ```bash
 git status
 ```
-
-내 로컬 브렌치 목록
-git branch -v
-
-내 github remote branch 목록 
-
-git branch -r
-
-로컬 및 github 모든 branch 목록
-git branch -a
-
-서울에서 작업을 했음
-
 ```bash
 git branch -v
 ```
@@ -418,3 +405,27 @@ git push origin 브랜치명
     git switch --track -c 생성 branch명 원격 branch명
  ```
   - 예) `git switch --track -c jeju remotes/origin/jeju`
+
+
+### 6. GitHub Branch 삭제하기
+ 
+
+ - GitHub의 branch 모두 내려받기
+```bash
+    git fetch -all
+```
+
+ - 로컬 및 GitHub branch 목록 모두 보기
+```bash
+    git branch -a
+```
+
+ -  GitHub의 branch 삭제 하기
+ ```bash
+    git push 저장소이름 --delete branch이름
+ ```
+
+  - 예) `git push origin --delete jeju`
+
+## 7. 가능하면 branch는 삭제하지 않기 권장합니다. 
+## 8. 가능하면 commit의 내용은 삭제, 수정하지 않기를 권장 합니다.
