@@ -375,3 +375,5 @@ git branch -r
 
 로컬 및 github 모든 branch 목록
 git branch -a
+
+서울에서 작업을 했음
