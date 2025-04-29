@@ -336,3 +336,32 @@ git push origin main
 - GitHub 주소를 주의 하셔야 합니다.
 - 코드 소스 기준은 `https`로 진행 중입니다.
 - 코드 소스 기준이 `ssh`면 인증을 다시 처리하는 과정 필요.
+
+### 5.1. 실습
+
+- 서울로 출장을 갔다.(PC 없이)
+- 서울 사무소에 PC를 지급 받았다.
+- PC에 환경 설정 진행(VSCode, Git)
+- D:/student/`test 폴더` 생성 >
+- GitHub 사이트의 프로젝트를 `clone` 한다.
+- GitHub 사이트의 Repository를 `clone`한다.
+
+
+### 5.2. clone
+
+```bash
+    git clone `github 주소` .
+```
+
+### 5.3. clone 이후의 작업
+
+```bash
+    git status
+    git branch -v
+    git branch 브랜치명
+    git branch 브랜치명
+    작업진행
+    git add .
+    git commit -m "작업내용"
+    git push origin 브랜치명 
+```
